@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ListaComponent } from './components/lista/lista.component';
-import { CadastrarComponent } from './components/cadastrar/cadastrar.component'; // Certifique-se de importar o componente CadastrarComponent
+import { CadastrarComponent } from './components/cadastrar/cadastrar.component'; 
 
 const routes: Routes = [
   { path: 'lista', component: ListaComponent },
-  { path: 'cadastrar', component: CadastrarComponent } // Adicione a rota "cadastrar" com o componente CadastrarComponent
+  { path: 'cadastrar', component: CadastrarComponent }
 ];
 
 @NgModule({
