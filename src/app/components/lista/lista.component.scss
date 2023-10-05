@@ -12,3 +12,28 @@ table {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     font-size: 20px;
 }
+
+#editar {
+    background-color: transparent;
+    border: 0;
+    
+
+}
+
+#editar i{
+    
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+#editar i:hover{color: rgb(65, 141, 255);}
+#excluir{
+    background-color: transparent;
+    border: 0;
+}
+
+#excluir i{
+    transition: color 0.5s ease, transform 0.5s ease;
+
+}
+#excluir i:hover{
+    color: red;
+}
