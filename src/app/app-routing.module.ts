@@ -4,6 +4,7 @@ import { ListaComponent } from './components/lista/lista.component';
 import { CadastrarComponent } from './components/cadastrar/cadastrar.component'; 
 import { HomeComponent } from './components/home/home.component';
 
+
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   {path: 'home', component: HomeComponent},
